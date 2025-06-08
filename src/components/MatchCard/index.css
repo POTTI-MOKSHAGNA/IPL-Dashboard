@@ -1,0 +1,45 @@
+/* Write your CSS here */
+.rcontainer {
+  background-color: #0f172a;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  color: #ffffff;
+  font-family: 'Bree Serif';
+}
+.recent-logo {
+  height: 115px;
+  width: 115px;
+}
+.recent-team {
+  font-size: 20px;
+  font-weight: bold;
+}
+.para {
+  font-size: 10px;
+}
+.Won {
+  color: #49ec63;
+  font-weight: bold;
+}
+.Lost {
+  color: #e21a1a;
+  font-weight: bold;
+}
+@media (min-width: 768px) {
+  .para {
+    font-size: 15px;
+  }
+  .recent-team {
+    font-size: 25px;
+  }
+  .recent-logo {
+    height: 150px;
+    width: 150px;
+  }
+}

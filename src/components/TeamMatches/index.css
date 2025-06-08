@@ -1,0 +1,47 @@
+/* Write your CSS here */
+.bg2 {
+  padding: 10px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.banner {
+  width: 100%;
+  margin-top: 30px;
+}
+.latest {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  align-self: flex-start;
+}
+@media (min-width: 768px) {
+  .bg2 {
+    padding: 25px;
+  }
+}
+.RCB {
+  background-image: linear-gradient(to bottom, #d91c1f, #18171d);
+}
+.KKR {
+  background-image: linear-gradient(to bottom, #522a79, #998383);
+}
+.KXP {
+  background-image: linear-gradient(to bottom, #e31d1e, #8c7e7d);
+}
+.CSK {
+  background-image: linear-gradient(to bottom, #f7db00, #0e102d);
+}
+.RR {
+  background-image: linear-gradient(to bottom, #fa57ad, #3b60d5);
+}
+.MI {
+  background-image: linear-gradient(to bottom, #055fa1, #f9f5c7);
+}
+.SH {
+  background-image: linear-gradient(to top, #f05b22, #ee373b);
+}
+.DC {
+  background-image: linear-gradient(to bottom, #214e94, #06498d);
+}
