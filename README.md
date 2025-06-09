@@ -23,8 +23,8 @@ ESLint + Prettier
 
 **Installation**
 ```
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/your-username/IPL-Dashboard.git
+cd IPL-Dashboard
 npm install
 npm start
 ```
